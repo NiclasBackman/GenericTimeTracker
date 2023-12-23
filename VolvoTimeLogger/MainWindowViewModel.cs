@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Reflection;
+using System.Windows;
 using System.Windows.Data;
 using System.Windows.Input;
 
@@ -22,7 +24,9 @@ namespace VolvoTimeLogger
             AddNewEntryCommand = new RelayCommand(p => CanAddNewEntry, p => HandleAddNewEntry());
             DeleteTimeEntryCommand = new RelayCommand(p => true, p => HandleDeleteEntry(p));
             ExitCommand = new RelayCommand(p => true, p => HandleExitClicked());
-            
+            AboutCommand = new RelayCommand(p => true, p => HandleAboutClicked());
+            SettingsCommand = new RelayCommand(p => true, p => HandleSettingsClicked());
+
             service.NewTimeEntryAdded.Subscribe(HandleNewTimeEntryAdded);
             service.TimeEntryUpdated.Subscribe(HandleTimeEntryUpdated);
             service.TimeEntryRemoved.Subscribe(HandleTimeEntryDeleted);
@@ -52,6 +56,22 @@ namespace VolvoTimeLogger
         private void HandleExitClicked()
         {
             System.Windows.Application.Current.Shutdown();
+        }
+
+        private void HandleAboutClicked()
+        {
+            var result = MessageBox.Show("Copyright 2023 (c) ZalcinSoft",
+                                $"About - {Assembly.GetEntryAssembly().GetName().Name} - {Assembly.GetEntryAssembly().GetName().Version}",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Information);
+        }
+
+        private void HandleSettingsClicked()
+        {
+            var result = MessageBox.Show("Settings not implemented yet...",
+                                $"Settings - {Assembly.GetEntryAssembly().GetName().Name} - {Assembly.GetEntryAssembly().GetName().Version}",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Warning);
         }
 
         private void HandleNewTimeEntryAdded(TimeEntry entry)
@@ -131,6 +151,16 @@ namespace VolvoTimeLogger
         }
 
         public ICommand ExitCommand
+        {
+            get; set;
+        }
+
+        public ICommand AboutCommand
+        {
+            get; set;
+        }
+
+        public ICommand SettingsCommand
         {
             get; set;
         }

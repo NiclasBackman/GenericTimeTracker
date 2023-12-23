@@ -79,9 +79,10 @@ namespace VolvoTimeLogger
             Console.WriteLine($"Selection changed: {id}");
             if(isChanged() && mCurrentEntry != null)
             {
-                var result = MessageBox.Show("You are navigating away from form and there is únsaved data, do you want to save it before you leave?",
+                var result = MessageBox.Show("You are navigating away from form and there is unsaved data, do you want to save it before you leave?",
                     $"Time Entry - {this.mCurrentEntry.Timestamp.ToShortDateString()}",
-                    MessageBoxButton.YesNo);
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Question);
                 if (result == MessageBoxResult.Yes)
                 {
                     volvoService.UpdateEntry(CurrentEntry.Id, Timestamp, NumberOfHours, JiraRef);

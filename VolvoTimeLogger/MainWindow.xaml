@@ -11,6 +11,34 @@
     <Window.Resources>
         <local:TimeEntriesToSummaryConverter x:Key="timeEntriesToSummaryConverter"/>
     </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <DockPanel/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Header="_File" Height="25">
+                <MenuItem Header="_Settings" Command="{Binding SettingsCommand}">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/settings.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="_Exit" Command="{Binding ExitCommand}">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/exit.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Help" HorizontalAlignment="Right" FlowDirection="RightToLeft">
+                <MenuItem Header="About..." FlowDirection="LeftToRight" Command="{Binding AboutCommand}">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/about.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -108,4 +136,5 @@
         <Button Grid.Row="1" Grid.Column="0" Content="New" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10" Width="50" Command="{Binding AddNewEntryCommand}"/>
         <Button Grid.Row="1" Grid.Column="4" Content="Exit" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Width="50" Command="{Binding ExitCommand}"/>
     </Grid>
+    </DockPanel>
 </Window>

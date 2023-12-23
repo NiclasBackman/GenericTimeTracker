@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/GenericTimeTracker/v15/.suo
+/.vs/VolvoTimeLogger/v15/Server/sqlite3/storage.ide-wal
+/.vs/VolvoTimeLogger/v15/Server/sqlite3/storage.ide-shm
+/.vs/VolvoTimeLogger/v15/Server/sqlite3/storage.ide
+/.vs/VolvoTimeLogger/v15/Server/sqlite3/db.lock
+/.vs/VolvoTimeLogger/v15/.suo
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/packages
+/VolvoTimeLogger/bin/Debug
+/VolvoTimeLogger/obj
+/.vs
