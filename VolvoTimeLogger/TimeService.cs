@@ -22,14 +22,14 @@ namespace VolvoTimeLogger
         }
     }
 
-    public class VolvoTimeService : IVolvoTimeService
+    public class TimeService : IVolvoTimeService
     {
         private List<TimeEntry> mAllEntries;
         private JsonSerializer mSerializer;
         private readonly string FilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "timelog.json");
 
 
-        public VolvoTimeService()
+        public TimeService()
         {
             NewTimeEntryAdded = new ObservableProperty<TimeEntry>();
             TimeEntryUpdated = new ObservableProperty<TimeEntry>();

@@ -38,7 +38,7 @@ namespace VolvoTimeLogger
         {
             var services = new ServiceCollection();
 
-            services.AddSingleton<IVolvoTimeService, VolvoTimeService>();
+            services.AddSingleton<IVolvoTimeService, TimeService>();
             services.AddSingleton<ISelectionService, SelectionService>();
 
             return services.BuildServiceProvider();
