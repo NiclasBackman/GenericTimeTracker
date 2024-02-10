@@ -14,3 +14,485 @@
 /VolvoTimeLogger/bin/Debug
 /VolvoTimeLogger/obj
 /.vs
+/GenericTimeLogger/bin/Debug/runtimes/win-arm64/native/WebView2Loader.dll
+/GenericTimeLogger/bin/Debug/runtimes/win-x86/native/WebView2Loader.dll
+/GenericTimeLogger/bin/Debug/runtimes/win-x64/native/WebView2Loader.dll
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/BrowserMetrics/BrowserMetrics-65B6A6D9-4F3C.pma
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000002
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_3
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_2
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_1
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/BudgetDatabase/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/BudgetDatabase/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/BudgetDatabase/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/AutofillStrikeDatabase/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/AutofillStrikeDatabase/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/AutofillStrikeDatabase/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/AssistanceHome/AssistanceHomeSQLite-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/AssistanceHome/AssistanceHomeSQLite
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Crashpad/throttle_store.dat
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Crashpad/settings.dat
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Crashpad/metadata
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/CertificateRevocation/6498.2023.8.1/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/CertificateRevocation/6498.2023.8.1/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/CertificateRevocation/6498.2023.8.1/crl-set
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/AutoLaunchProtocolsComponent/1.0.0.8/protocols.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/AutoLaunchProtocolsComponent/1.0.0.8/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/AutoLaunchProtocolsComponent/1.0.0.8/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Cache/Cache_Data
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Code Cache/js/index-dir
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Code Cache/js
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Code Cache/wasm/index-dir/the-real-index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Code Cache/wasm/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/discounts_db
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/DawnCache
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/databases/Databases.db-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/databases/Databases.db
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/commerce_subscription_db/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/commerce_subscription_db/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/commerce_subscription_db/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Download Service/EntryDB
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/GPUCache
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Feature Engagement Tracker/EventDB
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Feature Engagement Tracker/AvailabilityDB
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Feature Engagement Tracker
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Extension State
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Extension Scripts
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Extension Rules
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/EdgeHubAppUsage
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/EdgeEDrop
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Local Storage/leveldb/MANIFEST-000001
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Local Storage/leveldb/CURRENT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Local Storage/leveldb/000003.log
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Trust Tokens-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Trust Tokens
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/TransportSecurity
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Sdch Dictionaries
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/SCT Auditing Pending Reports
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Reporting and NEL-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Reporting and NEL
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/NetworkDataMigrated
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Network Persistent State
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Cookies-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network/Cookies
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/MANIFEST-000001
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/CURRENT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/000003.log
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/MANIFEST-000001
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/CURRENT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/shared_proto_db/000003.log
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Shared Dictionary/db-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Shared Dictionary/db
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Shared Dictionary/cache/index-dir/the-real-index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Shared Dictionary/cache/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Session Storage/MANIFEST-000001
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Session Storage/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Session Storage/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Session Storage/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Session Storage/CURRENT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Session Storage/000003.log
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Service Worker/CacheStorage/f56bfb986dc43b7d725c421f76f49d3c8fb9acfd/index.txt
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Service Worker/CacheStorage/f56bfb986dc43b7d725c421f76f49d3c8fb9acfd/e5076446-4d0d-4311-b4d0-322e3a4f06be/index-dir/the-real-index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Service Worker/CacheStorage/f56bfb986dc43b7d725c421f76f49d3c8fb9acfd/e5076446-4d0d-4311-b4d0-322e3a4f06be/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Service Worker/CacheStorage/f56bfb986dc43b7d725c421f76f49d3c8fb9acfd/d6bfcaeb-f3c9-4a95-a5a0-f94aa9585fe8/index-dir/the-real-index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Service Worker/CacheStorage/f56bfb986dc43b7d725c421f76f49d3c8fb9acfd/d6bfcaeb-f3c9-4a95-a5a0-f94aa9585fe8/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/PersistentOriginTrials/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/PersistentOriginTrials/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/PersistentOriginTrials/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/parcel_tracking_db/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/parcel_tracking_db/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/parcel_tracking_db/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/optimization_guide_model_metadata_store/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/optimization_guide_model_metadata_store/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/optimization_guide_model_metadata_store/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/optimization_guide_hint_cache_store/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/optimization_guide_hint_cache_store/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/optimization_guide_hint_cache_store/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Site Characteristics Database/MANIFEST-000001
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Site Characteristics Database/CURRENT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Site Characteristics Database/000003.log
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/MANIFEST-000001
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/CURRENT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/000003.log
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/WebStorage/QuotaManager-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Web Data-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Web Data
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Visited Links
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Top Sites-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Top Sites
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/SharedStorage
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Secure Preferences
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/README
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/PreferredApps
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Preferences
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network Action Predictor-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Network Action Predictor
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Login Data-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Login Data
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/LOG.old
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/LOG
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/LOCK
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/HubApps Icons-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/HubApps Icons
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/History-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/History
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/heavy_ad_intervention_opt_out.db-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/heavy_ad_intervention_opt_out.db
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Favicons-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/Favicons
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/ExtensionActivityEdge-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/ExtensionActivityEdge
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/ExtensionActivityComp-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/ExtensionActivityComp
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/DIPS-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/DIPS
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/DashTrackerDatabase-journal
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/DashTrackerDatabase
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GraphiteDawnCache/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GraphiteDawnCache/data_3
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GraphiteDawnCache/data_2
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GraphiteDawnCache/data_1
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GraphiteDawnCache/data_0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GraphiteDawnCache
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Default/WebStorage/QuotaManager
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata/11.0.0.0/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata/11.0.0.0/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata/11.0.0.0/kp_pinslist.pb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata/11.0.0.0/ct_config.pb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata/11.0.0.0/crs.pb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata/11.0.0.0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/PKIMetadata
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/OriginTrials/0.0.1.4/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/OriginTrials/0.0.1.4/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/OriginTrials/0.0.1.4
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/_metadata/verified_contents.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/_metadata
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-und-ethi.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-tk.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-te.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-ta.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-sl.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-pt.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-pa.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-or.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-nn.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-nb.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-mr.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-mn-cyrl.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-ml.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-la.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-kn.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-hy.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-hu.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-hr.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-hi.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-gu.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-ga.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-fr.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-eu.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-et.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-es.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-en-us.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-en-gb.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-de-ch-1901.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-de-1996.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-de-1901.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-da.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-cy.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-cu.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-bn.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-bg.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-be.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0/hyph-as.hyb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/hyphen-data/101.0.4906.0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GrShaderCache/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GrShaderCache/data_3
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GrShaderCache/data_2
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GrShaderCache/data_1
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/GrShaderCache/data_0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-ZH
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-RU
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-NL
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-IT
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-FR
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-ES
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Part-DE
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/LICENSE
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Filtering Rules-CA
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Filtering Rules-AA
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/Filtering Rules
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52/adblock_snippet.js
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.52
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Indexed Rules/36/10.34.0.52/LICENSE
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Speech Recognition/1.15.0.1/Microsoft.CognitiveServices.Speech.core.dll
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Speech Recognition/1.15.0.1/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Speech Recognition/1.15.0.1/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/topTraffic_638004170464094982
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/topTraffic
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/synchronousLookupUris_638343870221005468
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/synchronousLookupUris
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/edgeSettings_2.0-48b11410dc937a1723bf4c5ad33ecdb286d8ec69544241bc373f753e64b396c1
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/edgeSettings
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/customSynchronousLookupUris_0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/customSynchronousLookupUris
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/customSettings_F95BA787499AB4FA9EFFF472CE383A14
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/RemoteData/customSettings
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/local/uriCache_
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/local/uriCache
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/local/downloadCache_
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/SmartScreen/local/downloadCache
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/ShaderCache/index
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/ShaderCache/data_3
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/ShaderCache/data_2
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/ShaderCache/data_1
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/ShaderCache/data_0
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2024.1.2.1/_metadata/verified_contents.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2024.1.2.1/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2024.1.2.1/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2024.1.2.1/LICENSE
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2024.1.2.1/keys.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2023.9.4.1/_metadata/verified_contents.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2023.9.4.1/manifest.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2023.9.4.1/manifest.fingerprint
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2023.9.4.1/LICENSE
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2023.9.4.1/keys.json
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Subresource Filter/Indexed Rules/36/10.34.0.52/Ruleset Data
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Variations
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Local State
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/Last Version
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/CrashpadMetrics-active.pma
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.WebView2/EBWebView/BrowserMetrics-spare.pma
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.pdb
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe.config
+/GenericTimeLogger/bin/Debug/VolvoTimeLogger.exe
+/GenericTimeLogger/bin/Debug/System.Xml.XPath.XDocument.dll
+/GenericTimeLogger/bin/Debug/System.Xml.XPath.dll
+/GenericTimeLogger/bin/Debug/System.Xml.XmlSerializer.dll
+/GenericTimeLogger/bin/Debug/System.Xml.XmlDocument.dll
+/GenericTimeLogger/bin/Debug/System.Xml.XDocument.dll
+/GenericTimeLogger/bin/Debug/System.Xml.ReaderWriter.dll
+/GenericTimeLogger/bin/Debug/System.ValueTuple.dll
+/GenericTimeLogger/bin/Debug/System.Threading.Timer.dll
+/GenericTimeLogger/bin/Debug/System.Threading.ThreadPool.dll
+/GenericTimeLogger/bin/Debug/System.Threading.Thread.dll
+/GenericTimeLogger/bin/Debug/System.Threading.Tasks.Parallel.dll
+/GenericTimeLogger/bin/Debug/System.Threading.Tasks.Extensions.xml
+/GenericTimeLogger/bin/Debug/System.Threading.Tasks.Extensions.dll
+/GenericTimeLogger/bin/Debug/System.Threading.Tasks.dll
+/GenericTimeLogger/bin/Debug/System.Threading.Overlapped.dll
+/GenericTimeLogger/bin/Debug/System.Threading.dll
+/GenericTimeLogger/bin/Debug/System.Text.RegularExpressions.dll
+/GenericTimeLogger/bin/Debug/System.Text.Encoding.Extensions.dll
+/GenericTimeLogger/bin/Debug/System.Text.Encoding.dll
+/GenericTimeLogger/bin/Debug/System.Security.SecureString.dll
+/GenericTimeLogger/bin/Debug/System.Security.Principal.dll
+/GenericTimeLogger/bin/Debug/System.Security.Cryptography.X509Certificates.dll
+/GenericTimeLogger/bin/Debug/System.Security.Cryptography.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.Security.Cryptography.Encoding.dll
+/GenericTimeLogger/bin/Debug/System.Security.Cryptography.Csp.dll
+/GenericTimeLogger/bin/Debug/System.Security.Cryptography.Algorithms.dll
+/GenericTimeLogger/bin/Debug/System.Security.Claims.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Serialization.Xml.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Serialization.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Serialization.Json.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Serialization.Formatters.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Numerics.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.InteropServices.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Handles.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.Extensions.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.CompilerServices.VisualC.dll
+/GenericTimeLogger/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+/GenericTimeLogger/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/GenericTimeLogger/bin/Debug/System.Resources.Writer.dll
+/GenericTimeLogger/bin/Debug/System.Resources.ResourceManager.dll
+/GenericTimeLogger/bin/Debug/System.Resources.Reader.dll
+/GenericTimeLogger/bin/Debug/System.Reflection.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.Reflection.Extensions.dll
+/GenericTimeLogger/bin/Debug/System.Reflection.dll
+/GenericTimeLogger/bin/Debug/System.ObjectModel.dll
+/GenericTimeLogger/bin/Debug/System.Net.WebSockets.dll
+/GenericTimeLogger/bin/Debug/System.Net.WebSockets.Client.dll
+/GenericTimeLogger/bin/Debug/System.Net.WebHeaderCollection.dll
+/GenericTimeLogger/bin/Debug/System.Net.Sockets.dll
+/GenericTimeLogger/bin/Debug/System.Net.Security.dll
+/GenericTimeLogger/bin/Debug/System.Net.Requests.dll
+/GenericTimeLogger/bin/Debug/System.Net.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.Net.Ping.dll
+/GenericTimeLogger/bin/Debug/System.Net.NetworkInformation.dll
+/GenericTimeLogger/bin/Debug/System.Net.NameResolution.dll
+/GenericTimeLogger/bin/Debug/System.Net.Http.dll
+/GenericTimeLogger/bin/Debug/System.Linq.Queryable.dll
+/GenericTimeLogger/bin/Debug/System.Linq.Parallel.dll
+/GenericTimeLogger/bin/Debug/System.Linq.Expressions.dll
+/GenericTimeLogger/bin/Debug/System.Linq.dll
+/GenericTimeLogger/bin/Debug/System.IO.UnmanagedMemoryStream.dll
+/GenericTimeLogger/bin/Debug/System.IO.Pipes.dll
+/GenericTimeLogger/bin/Debug/System.IO.MemoryMappedFiles.dll
+/GenericTimeLogger/bin/Debug/System.IO.IsolatedStorage.dll
+/GenericTimeLogger/bin/Debug/System.IO.FileSystem.Watcher.dll
+/GenericTimeLogger/bin/Debug/System.IO.FileSystem.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.IO.FileSystem.DriveInfo.dll
+/GenericTimeLogger/bin/Debug/System.IO.FileSystem.dll
+/GenericTimeLogger/bin/Debug/System.IO.dll
+/GenericTimeLogger/bin/Debug/System.IO.Compression.ZipFile.dll
+/GenericTimeLogger/bin/Debug/System.IO.Compression.dll
+/GenericTimeLogger/bin/Debug/System.Globalization.Extensions.dll
+/GenericTimeLogger/bin/Debug/System.Globalization.dll
+/GenericTimeLogger/bin/Debug/System.Globalization.Calendars.dll
+/GenericTimeLogger/bin/Debug/System.Dynamic.Runtime.dll
+/GenericTimeLogger/bin/Debug/System.Drawing.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.Tracing.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.TraceSource.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.Tools.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.TextWriterTraceListener.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.StackTrace.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.Process.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.FileVersionInfo.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.Debug.dll
+/GenericTimeLogger/bin/Debug/System.Diagnostics.Contracts.dll
+/GenericTimeLogger/bin/Debug/System.Data.Common.dll
+/GenericTimeLogger/bin/Debug/System.Console.dll
+/GenericTimeLogger/bin/Debug/System.ComponentModel.TypeConverter.dll
+/GenericTimeLogger/bin/Debug/System.ComponentModel.Primitives.dll
+/GenericTimeLogger/bin/Debug/System.ComponentModel.EventBasedAsync.dll
+/GenericTimeLogger/bin/Debug/System.ComponentModel.dll
+/GenericTimeLogger/bin/Debug/System.Collections.Specialized.dll
+/GenericTimeLogger/bin/Debug/System.Collections.NonGeneric.dll
+/GenericTimeLogger/bin/Debug/System.Collections.dll
+/GenericTimeLogger/bin/Debug/System.Collections.Concurrent.dll
+/GenericTimeLogger/bin/Debug/System.AppContext.dll
+/GenericTimeLogger/bin/Debug/Newtonsoft.Json.xml
+/GenericTimeLogger/bin/Debug/Newtonsoft.Json.dll
+/GenericTimeLogger/bin/Debug/netstandard.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Win32.Primitives.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Web.WebView2.Wpf.xml
+/GenericTimeLogger/bin/Debug/Microsoft.Web.WebView2.Wpf.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Web.WebView2.WinForms.xml
+/GenericTimeLogger/bin/Debug/Microsoft.Web.WebView2.WinForms.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Web.WebView2.Core.xml
+/GenericTimeLogger/bin/Debug/Microsoft.Web.WebView2.Core.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Extensions.DependencyInjection.xml
+/GenericTimeLogger/bin/Debug/Microsoft.Extensions.DependencyInjection.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+/GenericTimeLogger/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/GenericTimeLogger/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+/GenericTimeLogger/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+/GenericTimeLogger/bin/Debug/Icons/volvo.png
+/GenericTimeLogger/bin/Debug/Icons/volvo.ico
+/GenericTimeLogger/bin/Debug/Icons/settings.png
+/GenericTimeLogger/bin/Debug/Icons/exit.png
+/GenericTimeLogger/bin/Debug/Icons/about.png
+/GenericTimeLogger/obj/Any CPU/Debug/VolvoTimeLogger_qwl15gw2_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Any CPU/Debug/VolvoTimeLogger_MarkupCompile.lref
+/GenericTimeLogger/obj/Any CPU/Debug/VolvoTimeLogger_MarkupCompile.cache
+/GenericTimeLogger/obj/Any CPU/Debug/VolvoTimeLogger_ftvv4fzj_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Any CPU/Debug/VolvoTimeLogger_Content.g.cs
+/GenericTimeLogger/obj/Any CPU/Debug/VolvoTimeLogger.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Any CPU/Debug/TimeEntryUserControl.g.cs
+/GenericTimeLogger/obj/Any CPU/Debug/NewEntryDialog.g.cs
+/GenericTimeLogger/obj/Any CPU/Debug/MainWindow.g.cs
+/GenericTimeLogger/obj/Any CPU/Debug/GeneratedInternalTypeHelper.g.cs
+/GenericTimeLogger/obj/Any CPU/Debug/App.g.cs
+/GenericTimeLogger/obj/Any CPU/Release/VolvoTimeLogger_qwl15gw2_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Any CPU/Release/VolvoTimeLogger_MarkupCompile.lref
+/GenericTimeLogger/obj/Any CPU/Release/VolvoTimeLogger_MarkupCompile.cache
+/GenericTimeLogger/obj/Any CPU/Release/VolvoTimeLogger_ftvv4fzj_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Any CPU/Release/VolvoTimeLogger_Content.g.cs
+/GenericTimeLogger/obj/Any CPU/Release/VolvoTimeLogger.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Any CPU/Release/TimeEntryUserControl.g.cs
+/GenericTimeLogger/obj/Any CPU/Release/NewEntryDialog.g.cs
+/GenericTimeLogger/obj/Any CPU/Release/MainWindow.g.cs
+/GenericTimeLogger/obj/Any CPU/Release/GeneratedInternalTypeHelper.g.cs
+/GenericTimeLogger/obj/Any CPU/Release/App.g.cs
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_qwl15gw2_wpftmp.csprojAssemblyReference.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_qwl15gw2_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_MarkupCompile.lref
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_MarkupCompile.i.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_MarkupCompile.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_ftvv4fzj_wpftmp.csprojAssemblyReference.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_ftvv4fzj_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_Content.g.i.cs
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger_Content.g.cs
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.Properties.Resources.resources
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.pdb
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.g.resources
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.exe.config
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.exe
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.csprojAssemblyReference.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.csproj.GenerateResource.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.csproj.FileListAbsolute.txt
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Debug/VolvoTimeLogger.csproj.CopyComplete
+/GenericTimeLogger/obj/Debug/TimeEntryUserControl.g.i.cs
+/GenericTimeLogger/obj/Debug/TimeEntryUserControl.g.cs
+/GenericTimeLogger/obj/Debug/TimeEntryUserControl.baml
+/GenericTimeLogger/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+/GenericTimeLogger/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+/GenericTimeLogger/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+/GenericTimeLogger/obj/Debug/NewEntryDialog.g.i.cs
+/GenericTimeLogger/obj/Debug/NewEntryDialog.g.cs
+/GenericTimeLogger/obj/Debug/NewEntryDialog.baml
+/GenericTimeLogger/obj/Debug/MainWindow.g.i.cs
+/GenericTimeLogger/obj/Debug/MainWindow.g.cs
+/GenericTimeLogger/obj/Debug/MainWindow.baml
+/GenericTimeLogger/obj/Debug/GeneratedInternalTypeHelper.g.i.cs
+/GenericTimeLogger/obj/Debug/GeneratedInternalTypeHelper.g.cs
+/GenericTimeLogger/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/GenericTimeLogger/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/GenericTimeLogger/obj/Debug/App.g.i.cs
+/GenericTimeLogger/obj/Debug/App.g.cs
+/GenericTimeLogger/obj/Release/VolvoTimeLogger_qwl15gw2_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Release/VolvoTimeLogger_MarkupCompile.lref
+/GenericTimeLogger/obj/Release/VolvoTimeLogger_MarkupCompile.cache
+/GenericTimeLogger/obj/Release/VolvoTimeLogger_ftvv4fzj_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Release/VolvoTimeLogger_Content.g.cs
+/GenericTimeLogger/obj/Release/VolvoTimeLogger.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Release/TimeEntryUserControl.g.cs
+/GenericTimeLogger/obj/Release/NewEntryDialog.g.cs
+/GenericTimeLogger/obj/Release/MainWindow.g.cs
+/GenericTimeLogger/obj/Release/GeneratedInternalTypeHelper.g.cs
+/GenericTimeLogger/obj/Release/App.g.cs
+/GenericTimeLogger/obj/Win32/Debug/App.g.cs
+/GenericTimeLogger/obj/Win32/Debug/VolvoTimeLogger_qwl15gw2_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Win32/Debug/VolvoTimeLogger_MarkupCompile.lref
+/GenericTimeLogger/obj/Win32/Debug/VolvoTimeLogger_MarkupCompile.cache
+/GenericTimeLogger/obj/Win32/Debug/VolvoTimeLogger_ftvv4fzj_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Win32/Debug/VolvoTimeLogger_Content.g.cs
+/GenericTimeLogger/obj/Win32/Debug/VolvoTimeLogger.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Win32/Debug/TimeEntryUserControl.g.cs
+/GenericTimeLogger/obj/Win32/Debug/NewEntryDialog.g.cs
+/GenericTimeLogger/obj/Win32/Debug/MainWindow.g.cs
+/GenericTimeLogger/obj/Win32/Debug/GeneratedInternalTypeHelper.g.cs
+/GenericTimeLogger/obj/Win32/Release/VolvoTimeLogger_qwl15gw2_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Win32/Release/VolvoTimeLogger_MarkupCompile.lref
+/GenericTimeLogger/obj/Win32/Release/VolvoTimeLogger_MarkupCompile.cache
+/GenericTimeLogger/obj/Win32/Release/VolvoTimeLogger_ftvv4fzj_wpftmp.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Win32/Release/VolvoTimeLogger_Content.g.cs
+/GenericTimeLogger/obj/Win32/Release/VolvoTimeLogger.csproj.CoreCompileInputs.cache
+/GenericTimeLogger/obj/Win32/Release/TimeEntryUserControl.g.cs
+/GenericTimeLogger/obj/Win32/Release/NewEntryDialog.g.cs
+/GenericTimeLogger/obj/Win32/Release/MainWindow.g.cs
+/GenericTimeLogger/obj/Win32/Release/GeneratedInternalTypeHelper.g.cs
+/GenericTimeLogger/obj/Win32/Release/App.g.cs
