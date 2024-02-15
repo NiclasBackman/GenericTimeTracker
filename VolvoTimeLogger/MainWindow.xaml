@@ -104,7 +104,7 @@
         <GridSplitter Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Stretch" ShowsPreview="True" Width="5"/>
         <Border Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" BorderThickness="1" BorderBrush="DarkGray">
             <TabControl>
-                <TabItem Header="Jira preview">
+                <TabItem Header="Web preview">
                     <wpf:WebView2  Name="webView" Source="{Binding JiraUrl, Mode=TwoWay}" Margin="10"/>
                 </TabItem>
                 <TabItem Header="Time Entry">

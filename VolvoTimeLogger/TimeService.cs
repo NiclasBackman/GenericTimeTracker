@@ -26,22 +26,31 @@ namespace VolvoTimeLogger
     {
         private List<TimeEntry> mAllEntries;
         private JsonSerializer mSerializer;
-        private readonly string FilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "timelog.json");
+        private readonly IApplicationConstants mAppConstants;
 
-
-        public TimeService()
+        public TimeService(IApplicationConstants appConstants)
         {
             NewTimeEntryAdded = new ObservableProperty<TimeEntry>();
             TimeEntryUpdated = new ObservableProperty<TimeEntry>();
             TimeEntryRemoved = new ObservableProperty<Guid>();
             mAllEntries = new List<TimeEntry>();
             mSerializer = new JsonSerializer();
-            if(File.Exists(FilePath))
+            mAppConstants = appConstants;
+
+            if (File.Exists(appConstants.TimeLoggerStorageFilePath))
             {
-                using (StreamReader file = File.OpenText(FilePath))
+                using (StreamReader file = File.OpenText(appConstants.TimeLoggerStorageFilePath))
                 {
                     mAllEntries = (List<TimeEntry>)mSerializer.Deserialize(file, typeof(List<TimeEntry>));
                 }
+            }
+            else
+            {
+                if (!Directory.Exists(appConstants.TimeLoggerDirectoryPath))
+                {
+                    Directory.CreateDirectory(appConstants.TimeLoggerDirectoryPath);
+                }
+
             }
         }
 
@@ -89,7 +98,7 @@ namespace VolvoTimeLogger
 
         private void Save()
         {
-            using (StreamWriter sw = new StreamWriter(FilePath))
+            using (StreamWriter sw = new StreamWriter(mAppConstants.TimeLoggerStorageFilePath))
             using (JsonWriter writer = new JsonTextWriter(sw))
             {
                 mSerializer.Serialize(writer, mAllEntries);

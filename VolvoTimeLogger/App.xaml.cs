@@ -40,7 +40,8 @@ namespace VolvoTimeLogger
 
             services.AddSingleton<IVolvoTimeService, TimeService>();
             services.AddSingleton<ISelectionService, SelectionService>();
-
+            services.AddSingleton<ISettingsService, SettingsService>();
+            services.AddSingleton<IApplicationConstants, ApplicationConstants>();
             return services.BuildServiceProvider();
         }
     }

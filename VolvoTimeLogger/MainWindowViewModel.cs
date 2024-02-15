@@ -11,14 +11,21 @@ namespace VolvoTimeLogger
     internal class MainWindowViewModel : BindableBase
     {
         private IVolvoTimeService mService;
+        private ISettingsWindow mSettingsWindow;
+        private readonly ISettingsService mSettingsService;
         private ISelectionService mSelectionService;
         private string mJiraUrl;
         private TimeEntry mSelectedTimeEntry;
-        private readonly string JiraBaseUrl = "https://jira.srv.volvo.com/browse/";
+        //private readonly string JiraBaseUrl = "https://jira.srv.volvo.com/browse/";
 
-        public MainWindowViewModel(IVolvoTimeService service, ISelectionService selectionService)
+        public MainWindowViewModel(IVolvoTimeService service,
+                                   ISelectionService selectionService,
+                                   ISettingsWindow settingsWindow,
+                                   ISettingsService settingsService)
         {
             mService = service;
+            mSettingsWindow = settingsWindow;
+            mSettingsService = settingsService;
             mSelectionService = selectionService;
 
             AddNewEntryCommand = new RelayCommand(p => CanAddNewEntry, p => HandleAddNewEntry());
@@ -68,10 +75,13 @@ namespace VolvoTimeLogger
 
         private void HandleSettingsClicked()
         {
-            var result = MessageBox.Show("Settings not implemented yet...",
-                                $"Settings - {Assembly.GetEntryAssembly().GetName().Name} - {Assembly.GetEntryAssembly().GetName().Version}",
-                                MessageBoxButton.OK,
-                                MessageBoxImage.Warning);
+            //var dlg = new SettingsWindow(mService);
+            var dlg = new SettingsWindow();
+            dlg.ShowDialog();
+            //var result = MessageBox.Show("Settings not implemented yet...",
+            //                    $"Settings - {Assembly.GetEntryAssembly().GetName().Name} - {Assembly.GetEntryAssembly().GetName().Version}",
+            //                    MessageBoxButton.OK,
+            //                    MessageBoxImage.Warning);
         }
 
         private void HandleNewTimeEntryAdded(TimeEntry entry)
@@ -122,7 +132,7 @@ namespace VolvoTimeLogger
                 if(mSelectedTimeEntry != null)
                 {
                     Console.WriteLine($"Selected item: {mSelectedTimeEntry.TicketReference}");
-                    JiraUrl = JiraBaseUrl + mSelectedTimeEntry.TicketReference;
+                    JiraUrl = mSettingsService.UrlRoot + mSelectedTimeEntry.TicketReference;
                 }
                 mSelectionService.Select(mSelectedTimeEntry != null ? mSelectedTimeEntry.Id : Guid.Empty);
             }

@@ -27,7 +27,9 @@ namespace VolvoTimeLogger
             InitializeComponent();
             IVolvoTimeService volvoService = (IVolvoTimeService)App.Current.Services.GetService(typeof(IVolvoTimeService));
             ISelectionService selectionService = (ISelectionService)App.Current.Services.GetService(typeof(ISelectionService));
-            DataContext = new MainWindowViewModel(volvoService, selectionService);
+            ISettingsWindow settingsWindow = (ISettingsWindow)App.Current.Services.GetService(typeof(ISettingsWindow));
+            ISettingsService settingsService = (ISettingsService)App.Current.Services.GetService(typeof(ISettingsService));
+            DataContext = new MainWindowViewModel(volvoService, selectionService, settingsWindow, settingsService);
             InitializeAsync();
         }
 
