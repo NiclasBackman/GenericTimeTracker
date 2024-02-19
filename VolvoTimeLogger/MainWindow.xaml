@@ -7,7 +7,8 @@
         xmlns:local="clr-namespace:VolvoTimeLogger"
         xmlns:wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Icon="{Binding ApplicationIcon}">
     <Window.Resources>
         <local:TimeEntriesToSummaryConverter x:Key="timeEntriesToSummaryConverter"/>
     </Window.Resources>

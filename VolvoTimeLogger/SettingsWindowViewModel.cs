@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -7,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace VolvoTimeLogger
 {
@@ -16,16 +19,45 @@ namespace VolvoTimeLogger
         private readonly ISettingsService mSettingsService;
         private string mApplicationIcon;
         private string mUrlRoot;
+        private ImageSource mApplicationIconBitmap;
 
         public SettingsWindowViewModel(Window parent,
                                        ISettingsService settingsService)
         {
             mParent = parent;
             mSettingsService = settingsService;
+            mSettingsService.SettingsEntryUpdated.Subscribe(HandleSettingsUpdated);
             SaveConfigurationCommand = new RelayCommand(p => this.CanSaveConfiguration, p => this.HandleSaveConfiguration());
             CancelConfigurationCommand = new RelayCommand(p => true, p => this.HandleCancelConfiguration());
+            BrowseForApplicationIconCommand = new RelayCommand(p => true, p => HandleBrowseForApplicationIconCommand());
             UrlRoot = mSettingsService.UrlRoot;
             ApplicationIcon = mSettingsService.ApplicationIcon;
+            if (settingsService.ApplicationIcon != null)
+            {
+                Uri iconUri = new Uri(settingsService.ApplicationIcon, UriKind.RelativeOrAbsolute);
+                this.ApplicationIconBitmap = BitmapFrame.Create(iconUri);
+            }
+        }
+
+        private void HandleSettingsUpdated(SettingsEntry entry)
+        {
+            if (entry.ApplicationIcon != null)
+            {
+                Uri iconUri = new Uri(entry.ApplicationIcon, UriKind.RelativeOrAbsolute);
+                ApplicationIcon = entry.ApplicationIcon;
+            }
+        }
+
+        public ImageSource ApplicationIconBitmap
+        {
+            get
+            {
+                return mApplicationIconBitmap;
+            }
+            set
+            {
+                SetProperty(ref mApplicationIconBitmap, value);
+            }
         }
 
         public string UrlRoot
@@ -52,6 +84,17 @@ namespace VolvoTimeLogger
             }
         }
 
+        private void HandleBrowseForApplicationIconCommand()
+        {
+            var ofd = new OpenFileDialog();
+            ofd.Multiselect = false;
+            ofd.Filter = "Image files (*.png;*.jpeg)|*.png;*.jpeg|All files (*.*)|*.*";
+            if (ofd.ShowDialog() == true)
+            {
+                ApplicationIcon = ofd.FileName;
+            }
+        }
+
         private void HandleCancelConfiguration()
         {
             mParent.Hide();
@@ -61,6 +104,12 @@ namespace VolvoTimeLogger
         {
             mSettingsService.Save(UrlRoot, ApplicationIcon);
             mParent.Hide();
+        }
+
+        public ICommand BrowseForApplicationIconCommand
+        {
+            get;
+            set;
         }
 
         public ICommand SaveConfigurationCommand

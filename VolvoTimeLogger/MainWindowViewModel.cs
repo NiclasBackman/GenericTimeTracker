@@ -5,6 +5,8 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Data;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace VolvoTimeLogger
 {
@@ -16,6 +18,8 @@ namespace VolvoTimeLogger
         private ISelectionService mSelectionService;
         private string mJiraUrl;
         private TimeEntry mSelectedTimeEntry;
+        private ImageSource mApplicationIcon;
+
         //private readonly string JiraBaseUrl = "https://jira.srv.volvo.com/browse/";
 
         public MainWindowViewModel(IVolvoTimeService service,
@@ -27,6 +31,7 @@ namespace VolvoTimeLogger
             mSettingsWindow = settingsWindow;
             mSettingsService = settingsService;
             mSelectionService = selectionService;
+            mSettingsService.SettingsEntryUpdated.Subscribe(HandleSettingsUpdated);
 
             AddNewEntryCommand = new RelayCommand(p => CanAddNewEntry, p => HandleAddNewEntry());
             DeleteTimeEntryCommand = new RelayCommand(p => true, p => HandleDeleteEntry(p));
@@ -46,6 +51,20 @@ namespace VolvoTimeLogger
             CollectionView = new CollectionViewSource() { Source = TimeEntries };
             CollectionView.GroupDescriptions.Add(new PropertyGroupDescription("WeekNumber"));
             JiraUrl = "https://www.microsoft.com";
+            if (settingsService.ApplicationIcon != null)
+            {
+                Uri iconUri = new Uri(settingsService.ApplicationIcon, UriKind.RelativeOrAbsolute);
+                this.ApplicationIcon = BitmapFrame.Create(iconUri);
+            }
+        }
+
+        private void HandleSettingsUpdated(SettingsEntry entry)
+        {
+            if (entry.ApplicationIcon != null)
+            {
+                Uri iconUri = new Uri(entry.ApplicationIcon, UriKind.RelativeOrAbsolute);
+                this.ApplicationIcon = BitmapFrame.Create(iconUri);
+            }
         }
 
         private void HandleTimeEntryDeleted(Guid id)
@@ -104,7 +123,7 @@ namespace VolvoTimeLogger
 
         private void HandleAddNewEntry()
         {
-            var dlg = new NewEntryDialog(mService);
+            var dlg = new NewEntryDialog(mService, mSettingsService);
             dlg.ShowDialog();
         }
 
@@ -117,6 +136,18 @@ namespace VolvoTimeLogger
             set
             {
                 SetProperty(ref mJiraUrl, value);
+            }
+        }
+
+        public ImageSource ApplicationIcon
+        {
+            get
+            {
+                return mApplicationIcon;
+            }
+            set
+            {
+                SetProperty(ref mApplicationIcon, value);
             }
         }
 

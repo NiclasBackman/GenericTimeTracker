@@ -2,6 +2,8 @@
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace VolvoTimeLogger
 {
@@ -9,19 +11,37 @@ namespace VolvoTimeLogger
     {
         private IVolvoTimeService service;
         private readonly Window parent;
+        private ISettingsService mSettingsService;
         private DateTime mTimestamp;
         private float mNumberOfHours;
         private string mJiraRef;
+        private ImageSource mApplicationIconBitmap;
 
-        public NewEntryDialogViewModel(IVolvoTimeService service, Window parent)
+        public NewEntryDialogViewModel(IVolvoTimeService service, Window parent, ISettingsService settingsService)
         {
             this.service = service;
             this.parent = parent;
+            this.mSettingsService = settingsService;
+            mSettingsService.SettingsEntryUpdated.Subscribe(HandleSettingsUpdated);
             SaveNewEntryCommand = new RelayCommand(p => this.CanSaveNewEntry, p => this.HandleSaveNewEntry());
             CancelNewEntryCommand = new RelayCommand(p => true, p => this.HandleCancelNewEntry());
             Timestamp = DateTime.Now;
             NumberOfHours = 0;
             JiraRef = string.Empty;
+            if (settingsService.ApplicationIcon != null)
+            {
+                Uri iconUri = new Uri(settingsService.ApplicationIcon, UriKind.RelativeOrAbsolute);
+                this.ApplicationIconBitmap = BitmapFrame.Create(iconUri);
+            }
+        }
+
+        private void HandleSettingsUpdated(SettingsEntry entry)
+        {
+            if (entry.ApplicationIcon != null)
+            {
+                Uri iconUri = new Uri(entry.ApplicationIcon, UriKind.RelativeOrAbsolute);
+                ApplicationIconBitmap = BitmapFrame.Create(iconUri);
+            }
         }
 
         private void HandleSaveNewEntry()
@@ -87,6 +107,18 @@ namespace VolvoTimeLogger
             set
             {
                 SetProperty(ref mJiraRef, value);
+            }
+        }
+
+        public ImageSource ApplicationIconBitmap
+        {
+            get
+            {
+                return mApplicationIconBitmap;
+            }
+            set
+            {
+                SetProperty(ref mApplicationIconBitmap, value);
             }
         }
 

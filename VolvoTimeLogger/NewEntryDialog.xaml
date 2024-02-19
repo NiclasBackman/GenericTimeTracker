@@ -6,7 +6,8 @@
         xmlns:System="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:VolvoTimeLogger"
         mc:Ignorable="d"
-        Title="NewEntryDialog" Height="450" Width="800">
+        Title="NewEntryDialog" Height="450" Width="800"
+        Icon="{Binding ApplicationIconBitmap}">
 	<Window.Resources>
 		<Style TargetType="{x:Type TextBox}">
 			<Setter Property="VerticalAlignment" Value="Center" />

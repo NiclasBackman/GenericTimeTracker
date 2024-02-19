@@ -18,5 +18,15 @@ namespace VolvoTimeLogger
         {
             get; set;
         }
+
+        public string TimeAttributeName
+        {
+            get; set;
+        }
+
+        public string UrlRefAttributeName
+        {
+            get; set;
+        }
     }
 }

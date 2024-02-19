@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:VolvoTimeLogger"
         mc:Ignorable="d"
         Title="SettingsWindow" Height="450" Width="800"
-        WindowStartupLocation="CenterOwner">
+        WindowStartupLocation="CenterOwner"
+        Icon="{Binding ApplicationIconBitmap}">
     <Window.Resources>
         <Style TargetType="{x:Type TextBox}">
             <Setter Property="VerticalAlignment" Value="Center" />
@@ -32,8 +33,8 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
@@ -41,12 +42,12 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Label Grid.Row="0" Content="Root of web preview:"/>
-        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding UrlRoot, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=true, NotifyOnValidationError=true}" MinWidth="100" Grid.ColumnSpan="2"/>
-        <Label Grid.Row="1" Content="Application icon :"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding ApplicationIcon, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=true, NotifyOnValidationError=true}" VerticalAlignment="Top" Grid.ColumnSpan="2">
-        </TextBox>
-
-        <Button Grid.Row="2" Grid.Column="0" Content="Save" Width="50" Margin="10" HorizontalAlignment="Left" Command="{Binding SaveConfigurationCommand}"/>
-        <Button Grid.Row="2" Grid.Column="2" Content="Cancel" Width="50" Margin="10" HorizontalAlignment="Right" Command="{Binding CancelConfigurationCommand}"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding UrlRoot, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=true, NotifyOnValidationError=true}" MinWidth="100" Grid.ColumnSpan="2" Margin="0,4,10,4"/>
+        <Label Grid.Row="1" Content="Application icon :" Margin="0,5,0,0"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ApplicationIcon}" VerticalAlignment="Top" Grid.ColumnSpan="2" TextTrimming="CharacterEllipsis" MinWidth="50" Margin="10"/>
+        <Button Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right" Content="Browse" Command="{Binding BrowseForApplicationIconCommand}" Width="50" VerticalAlignment="Top" Margin="0,10,10,0"/>
+        <!--<TextBox Grid.Row="1" Grid.Column="1" Text="{Binding ApplicationIcon, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=true, NotifyOnValidationError=true}" VerticalAlignment="Top" Grid.ColumnSpan="2">-->
+        <Button Grid.Row="2" Grid.Column="0" Content="Save" Width="50" Margin="10" VerticalAlignment="Bottom" HorizontalAlignment="Left" Command="{Binding SaveConfigurationCommand}"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="Cancel" Width="50" Margin="10" VerticalAlignment="Bottom" HorizontalAlignment="Right" Command="{Binding CancelConfigurationCommand}"/>
     </Grid>
 </Window>

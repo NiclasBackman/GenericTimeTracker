@@ -19,10 +19,10 @@ namespace VolvoTimeLogger
     /// </summary>
     public partial class NewEntryDialog : Window
     {
-        public NewEntryDialog(IVolvoTimeService service)
+        public NewEntryDialog(IVolvoTimeService service, ISettingsService mSettingsService)
         {
             InitializeComponent();
-            DataContext = new NewEntryDialogViewModel(service, this);
+            DataContext = new NewEntryDialogViewModel(service, this, mSettingsService);
         }
     }
 }
